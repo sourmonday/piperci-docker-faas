@@ -1,0 +1,11 @@
+coverage:
+  precision: 0
+  round: up
+  range: 60..99
+  ignore:
+    - "template/"
+    - "tests/" # Test infrastructure coverage does not affect core coverage
+    - "test/"
+    - "**/test/*.py"
+    - "tools/"
+    - "docker/"

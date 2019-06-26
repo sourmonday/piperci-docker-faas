@@ -1,6 +1,7 @@
 # PiedPiper Docker Function
 
 [![Build Status](https://travis-ci.com/sourmonday/piperci-docker-faas.svg?branch=master)](https://travis-ci.com/sourmonday/piperci-docker-faas)
+[![codecov.io](https://codecov.io/github/sourmonday/piperci-docker-faas/coverage.svg?branch=master)](https://codecov.io/github/sourmonday/piperci-docker-faas?branch=master)
 
 ### Table of Contents
 
