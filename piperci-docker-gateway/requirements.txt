@@ -1,7 +1,5 @@
 
-flake8
 flask-restful
-minio
 piperci@git+https://github.com/AFCYBER-DREAM/python-piperci.git
 PyYAML
 requests
