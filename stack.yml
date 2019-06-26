@@ -3,3 +3,12 @@ provider:
   name: faas
   gateway: http://127.0.0.1:8080
 functions:
+  piperci-docker-executor:
+    environment:
+      write_debug: true
+    lang: python3-flask
+    handler: ./piperci-docker-executor
+    image: piperci-docker-executor:latest
+    secrets:
+      - storage-access-key
+      - storage-secret-key
